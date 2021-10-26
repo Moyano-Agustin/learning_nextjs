@@ -16,3 +16,4 @@ const sequelize = new Sequelize('database', null, null, {
       }
     }
   })
+  
