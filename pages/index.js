@@ -1,7 +1,11 @@
 import React from "react";
-
+import navigation from "../components/navigation";
 const index = () => {
-    return <h1>Hellow word</h1>
+    return (<div>
+        <navigation/>
+        <h1>Home</h1>
+
+    </div>)
 }
 
-export default index
+export default index ;
